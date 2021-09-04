@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(bottomAppBar);
         // Declare each top-level page; others will show back button instead of navigation
         appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_home, R.id.nav_wires)
                 .setOpenableLayout(drawer)
                 .build();
 
